@@ -1,8 +1,8 @@
 function createTable() {
     //Write your code here
 
-	let rn = parseInt(prompt("Input number of rows:"));
-    let cn = parseInt(prompt("Input number of columns:"));
+	let rn = parseInt(prompt("Input number of rows"));
+    let cn = parseInt(prompt("Input number of columns"));
 	
 	if(rn === NaN || cn === NaN || rn <=0 || cn <= 0){
 		// console.log(rn, cn)
